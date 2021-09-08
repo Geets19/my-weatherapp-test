@@ -1,0 +1,62 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  color: grey;
+  background-color: lightskyblue;
+  font-size: small;
+  text-align: center;
+  padding-top: 20px;
+}
+h3 {
+  color: turquoise;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 40px;
+}
+.image {
+  position: relative;
+  left: 40%;
+}
+.row {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  position: relative;
+
+  left: 20%;
+}
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+.temp-main {
+  font-size: 20px;
+}
+.emoji-firstsun {
+  font-size: 60px;
+  position: relative;
+  left: 25%;
+}
+
+.five-days {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+
+  color: blue;
+  position: relative;
+  left: 40%;
+}
+.emoji-fivedays {
+  font-size: 25px;
+  position: relative;
+  left: 25%;
+}

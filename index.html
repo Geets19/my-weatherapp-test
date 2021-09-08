@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>Global Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Weather</h1>
+      <span class="image">
+        <img src="images/girltemp.svg" alt="" width="200px" />
+      </span>
+      <h2>
+        <form id="search-form">
+          <input
+            type="text"
+            id="search-city"
+            placeholder="Search for a city"
+            autocomplete="off"
+            autofocus="on"
+          />
+          <input type="submit" value="search" />
+        </form>
+      </h2>
+
+      <h3 class="border mt 1 p-2 mt-2 rounded">RESULT OF SEARCHED CITY</h3>
+      <div class="main border mt 1 p-2 mt-2 rounded">
+        <h4>19ºC</h4>
+<br>
+        <span class="Current location">
+          <p>
+            <button id="currentlocation">Current Location</button>
+          </p>
+        </span>
+      </br>
+        <h5>Wed, Sept 20, 18:30, 2021</h5>
+
+        <div class="five-days">
+          <div class="col-1">SUNDAY</div>
+          <span class="emoji-fivedays">
+            <p>☀️</p>
+          </span>
+
+          <div class="col-1">31ºC</div>
+
+          <div class="col-1">MONDAY</div>
+          <span class="emoji-fivedays">
+            <p>🌤️</p>
+          </span>
+          <div class="col-1">28ºC</div>
+
+          <div class="col-1">TUESDAY</div>
+          <span class="emoji-fivedays">
+            <p>🌦️</p>
+          </span>
+          <div class="col-1">32ºC</div>
+
+          <div class="col-1">WEDNESDAY</div>
+          <span class="emoji-fivedays">
+            <p>🌥️</p>
+          </span>
+          <div class="col-1">30ºC</div>
+
+          <div class="col-1">THURSDAY</div>
+          <span class="emoji-fivedays">
+            <p>⛈️</p>
+          </span>
+          <div class="col-1">27ºC</div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
